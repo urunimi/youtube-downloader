@@ -29,6 +29,7 @@ class YPDownloader:
             "noplaylist": False,
             "quiet": False,
             "postprocessors": postprocessors,
+            "compat_opts": ["no-youtube-unavailable-videos"],
         }
 
     def make_alpha_numeric(self, string: str):
